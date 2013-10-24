@@ -98,9 +98,10 @@ class TypeTest extends PHPUnit_Framework_TestCase {
      */
     public function testGetTypeOptions() {
         // Remove the following lines when you implement this test.
-        $this->markTestIncomplete(
-                'This test has not been implemented yet.'
-        );
+        $options = Type::model()->getTypeOptions();
+        $this ->assertTrue(is_array($options));
+        $this ->assertEquals(3, count($options));
+        
     }
 
 }
