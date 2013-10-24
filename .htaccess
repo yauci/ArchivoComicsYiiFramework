@@ -1,0 +1,8 @@
+RewriteEngine on
+
+# Si el directorio o las filas existen, no se crean se usan
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#si no seguimos
+RewriteRule . index.php
