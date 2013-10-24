@@ -55,16 +55,38 @@ body
 #mainmenu ul
 {
 	padding:6px 20px 5px 20px;
-	margin:0px;
+	list-style: none;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        height: 30px;
 }
 
 #mainmenu ul li
 {
-	display: inline;
+	display: block;
+        height: 28px;
+        float: left;
+        overflow: visible;
+        position: relative;
+}
+
+#mainmenu li ul
+{
+        position: absolute;
+        top: 24px;
+        left: 10px;
+}
+
+#mainmenu li ul li
+{
+        display: none;
 }
 
 #mainmenu ul li a
 {
+        float: left;
+        display: block;
 	color:#ffffff;
 	background-color:transparent;
 	font-size:12px;
@@ -73,8 +95,10 @@ body
 	padding:5px 8px;
 }
 
-#mainmenu ul li a:hover, #mainmenu ul li.active a
+#mainmenu .active a, #mainmenu li:hover > a,
+#mainmenu li a:hover > ul li
 {
+        display: block;
 	color: #6399cd;
 	background-color:#EFF4FA;
 	text-decoration:none;

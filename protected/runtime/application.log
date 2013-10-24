@@ -7,3 +7,34 @@ Stack trace:
 REQUEST_URI=/comicbookdb/index.php?r=gii/crud/index
 HTTP_REFERER=http://localhost/comicbookdb/index.php?r=gii/crud/index
 ---
+2013/10/24 18:10:52 [error] [exception.CException] exception 'CException' with message 'Type and its behaviors do not have a method or closure named "getTypeOptions".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CComponent.php:266
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(227): CComponent->__call('getTypeOptions', Array)
+#1 /home/u13pro/Projects/Yii-Projects/comicbookdb/protected/views/book/_form.php(30): CActiveRecord->__call('getTypeOptions', Array)
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/protected/views/book/_form.php(30): Type->getTypeOptions()
+#3 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CBaseController.php(126): require('/home/u13pro/Pr...')
+#4 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/u13pro/Pr...', Array, true)
+#5 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CController.php(869): CBaseController->renderFile('/home/u13pro/Pr...', Array, true)
+#6 /home/u13pro/Projects/Yii-Projects/comicbookdb/protected/views/book/create.php(18): CController->renderPartial('_form', Array)
+#7 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CBaseController.php(126): require('/home/u13pro/Pr...')
+#8 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/u13pro/Pr...', Array, true)
+#9 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CController.php(869): CBaseController->renderFile('/home/u13pro/Pr...', Array, true)
+#10 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#11 /home/u13pro/Projects/Yii-Projects/comicbookdb/protected/controllers/BookController.php(79): CController->render('create', Array)
+#12 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): BookController->actionCreate()
+#13 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#14 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#15 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#16 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#17 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#18 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#19 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#20 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('create')
+#22 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('book/create')
+#23 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#24 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/comicbookdb/index.php?r=book/create
+HTTP_REFERER=http://localhost/comicbookdb/index.php?r=book
+---

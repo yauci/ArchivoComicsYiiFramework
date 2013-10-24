@@ -95,4 +95,8 @@ class Grade extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+        public function getTypeOptions()
+        {
+            return CHtml::listData(Grade::model()->findAll(),'id','name');
+        }        
 }

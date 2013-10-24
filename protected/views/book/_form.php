@@ -27,7 +27,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'type_id'); ?>
-		<?php echo $form->textField($model,'type_id',array('size'=>10,'maxlength'=>10)); ?>
+		<?php echo $form->dropDownList($model,'type_id',  Type::model()->getTypeOptions()); ?>
 		<?php echo $form->error($model,'type_id'); ?>
 	</div>
 
@@ -39,7 +39,19 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'value'); ?>
-		<?php echo $form->textField($model,'value',array('size'=>10,'maxlength'=>10)); ?>
+		<?php $this->widget('zii.widgets.jui.CJuiDatePicker',
+                      array(
+                          'name' => 'publication_date',
+                          'attribute' => 'publication_date',
+                          'model' => $model,
+                          'options' => array(
+                              'dateFormat' => 'yy-mm-dd',
+                              'altFormat' => 'yy-mm-dd',
+                              'changeMonth' => true,
+                              'changeYear' => true,
+                              'appendText' => ' yyyy-mm-dd',
+                          ),
+                      ));?>
 		<?php echo $form->error($model,'value'); ?>
 	</div>
 
@@ -57,19 +69,19 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'signed'); ?>
-		<?php echo $form->textField($model,'signed'); ?>
+		<?php echo $form->checkBox($model,'signed'); ?>
 		<?php echo $form->error($model,'signed'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'grade_id'); ?>
-		<?php echo $form->textField($model,'grade_id',array('size'=>10,'maxlength'=>10)); ?>
+		<?php echo $form->dropDownList($model,'grade_id', Grade::model()->getTypeOptions()); ?>
 		<?php echo $form->error($model,'grade_id'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'bagged'); ?>
-		<?php echo $form->textField($model,'bagged'); ?>
+		<?php echo $form->checkBox($model,'bagged'); ?>
 		<?php echo $form->error($model,'bagged'); ?>
 	</div>
 

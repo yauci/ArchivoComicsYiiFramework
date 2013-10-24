@@ -95,4 +95,13 @@ class Type extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+         /**
+	 * Devuelve todos los valores de este en una lista.
+	 * Please note that you should have this exact method in all your CActiveRecord descendants!
+	 */
+        public function getTypeOptions()
+        {
+            return CHtml::listData(Type::model()->findAll(),'id','name');
+        }
+        
 }
