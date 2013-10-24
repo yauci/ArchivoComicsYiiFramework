@@ -20,6 +20,8 @@ class Type extends CActiveRecord
 		return 'type';
 	}
 
+        
+
 	/**
 	 * @return array validation rules for model attributes.
 	 */

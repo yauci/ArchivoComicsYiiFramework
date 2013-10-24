@@ -6,8 +6,10 @@ $config=dirname(__FILE__).'/../config/test.php';
 
 date_default_timezone_set('America/Los_Angeles');
 
+
 require_once($yiit);
 require_once (Yii::getPathOfAlias('system.test.CTestCase').'.php');
 require_once(dirname(__FILE__).'/WebTestCase.php');
+require_once dirname(__FILE__).'/../../../../../../../opt/lampp/htdocs/yii/framework/yii.php';
 
 Yii::createWebApplication($config);
