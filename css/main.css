@@ -96,7 +96,7 @@ body
 }
 
 #mainmenu .active a, #mainmenu li:hover > a,
-#mainmenu li a:hover > ul li
+#mainmenu li:hover > ul li
 {
         display: block;
 	color: #6399cd;
