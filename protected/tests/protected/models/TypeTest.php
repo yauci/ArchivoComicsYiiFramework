@@ -32,9 +32,8 @@ class TypeTest extends PHPUnit_Framework_TestCase {
      */
     public function testTableName() {
         // Remove the following lines when you implement this test.
-        $this->markTestIncomplete(
-                'This test has not been implemented yet.'
-        );
+        $options = Type::model()->tableName();
+        $this ->assertEquals("type", $options);
     }
 
     /**
@@ -43,9 +42,9 @@ class TypeTest extends PHPUnit_Framework_TestCase {
      */
     public function testRules() {
         // Remove the following lines when you implement this test.
-        $this->markTestIncomplete(
-                'This test has not been implemented yet.'
-        );
+        $options = Type::model()->rules();
+        $this ->assertTrue(is_array($options));
+        $this ->assertEquals(3, count($options));
     }
 
     /**
@@ -54,9 +53,9 @@ class TypeTest extends PHPUnit_Framework_TestCase {
      */
     public function testRelations() {
         // Remove the following lines when you implement this test.
-        $this->markTestIncomplete(
-                'This test has not been implemented yet.'
-        );
+        $options = Type::model()->relations();
+        $this ->assertTrue(is_array($options));
+        $this ->assertEquals(1, count($options));
     }
 
     /**
