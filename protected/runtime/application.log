@@ -38,3 +38,376 @@ Stack trace:
 REQUEST_URI=/comicbookdb/index.php?r=book/create
 HTTP_REFERER=http://localhost/comicbookdb/index.php?r=book
 ---
+2013/10/27 11:53:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/dectectmobilebrowser.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/dectectmobil...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/dectectmobilebrowser.js
+HTTP_REFERER=http://localhost/comicbookdb/index.php
+---
+2013/10/27 11:54:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/dectectmobilebrowser.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/dectectmobil...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/dectectmobilebrowser.js
+HTTP_REFERER=http://192.168.1.160/comicbookdb/index.php/site/index
+---
+2013/10/27 11:56:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/dectectmobilebrowser.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/dectectmobil...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/dectectmobilebrowser.js
+HTTP_REFERER=http://localhost/comicbookdb/index.php
+---
+2013/10/27 11:56:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/dectectmobilebrowser.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/dectectmobil...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/dectectmobilebrowser.js
+HTTP_REFERER=http://localhost/comicbookdb/index.php/site/login
+---
+2013/10/27 11:57:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/dectectmobilebrowser.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/dectectmobil...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/dectectmobilebrowser.js
+HTTP_REFERER=http://localhost/comicbookdb/index.php
+---
+2013/10/27 11:58:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/dectectmobilebrowser.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/dectectmobil...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/dectectmobilebrowser.js
+HTTP_REFERER=http://localhost/comicbookdb/index.php
+---
+2013/10/27 11:59:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/dectectmobilebrowser.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/dectectmobil...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/dectectmobilebrowser.js
+HTTP_REFERER=http://localhost/comicbookdb/index.php
+---
+2013/10/27 11:59:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/dectectmobilebrowser.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/dectectmobil...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/dectectmobilebrowser.js
+HTTP_REFERER=http://localhost/comicbookdb/index.php
+---
+2013/10/27 12:00:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/css/themes/default/jquery.mobile-1.3.2.min.css".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/themes/d...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/css/themes/default/jquery.mobile-1.3.2.min.css
+HTTP_REFERER=http://localhost/comicbookdb/js/
+---
+2013/10/27 12:00:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/js/jquery.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/js/jquery.js')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/js/jquery.js
+HTTP_REFERER=http://localhost/comicbookdb/js/
+---
+2013/10/27 12:00:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/demos/_assets/js/index.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/demos/_asset...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/demos/_assets/js/index.js
+HTTP_REFERER=http://localhost/comicbookdb/js/
+---
+2013/10/27 12:00:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/demos/_assets/css/jqm-demos.css".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/demos/_asset...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/demos/_assets/css/jqm-demos.css
+HTTP_REFERER=http://localhost/comicbookdb/js/
+---
+2013/10/27 12:00:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/js/jquery.mobile-1.3.2.min.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/js/jquery.mo...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/js/jquery.mobile-1.3.2.min.js
+HTTP_REFERER=http://localhost/comicbookdb/js/
+---
+2013/10/27 12:00:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/demos".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/demos')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/demos/
+HTTP_REFERER=http://localhost/comicbookdb/js/
+---
+2013/10/27 12:00:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/demos/_assets/favicon.ico".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/demos/_asset...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/demos/_assets/favicon.ico
+---
+2013/10/27 12:00:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/dectectmobilebrowser.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/dectectmobil...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/dectectmobilebrowser.js
+HTTP_REFERER=http://localhost/comicbookdb/js/demos/
+---
+2013/10/27 12:00:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/dectectmobilebrowser.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/dectectmobil...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/dectectmobilebrowser.js
+HTTP_REFERER=http://localhost/comicbookdb/index.php/book
+---
+2013/10/27 12:00:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/index.php/js
+---
+2013/10/27 12:00:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/dectectmobilebrowser.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/dectectmobil...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/dectectmobilebrowser.js
+HTTP_REFERER=http://localhost/comicbookdb/index.php/js
+---
+2013/10/27 12:01:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/demos/_assets/css/jqm-demos.css".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/demos/_asset...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/demos/_assets/css/jqm-demos.css
+HTTP_REFERER=http://localhost/comicbookdb/js/
+---
+2013/10/27 12:01:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/js/jquery.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/js/jquery.js')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/js/jquery.js
+HTTP_REFERER=http://localhost/comicbookdb/js/
+---
+2013/10/27 12:01:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/css/themes/default/jquery.mobile-1.3.2.min.css".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/themes/d...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/css/themes/default/jquery.mobile-1.3.2.min.css
+HTTP_REFERER=http://localhost/comicbookdb/js/
+---
+2013/10/27 12:01:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/js/jquery.mobile-1.3.2.min.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/js/jquery.mo...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/js/jquery.mobile-1.3.2.min.js
+HTTP_REFERER=http://localhost/comicbookdb/js/
+---
+2013/10/27 12:01:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/demos/_assets/js/index.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/demos/_asset...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/demos/_assets/js/index.js
+HTTP_REFERER=http://localhost/comicbookdb/js/
+---
+2013/10/27 12:01:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/demos".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/demos')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/demos/
+HTTP_REFERER=http://localhost/comicbookdb/js/
+---
+2013/10/27 12:01:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/dectectmobilebrowser.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/dectectmobil...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/dectectmobilebrowser.js
+HTTP_REFERER=http://localhost/comicbookdb/js/demos/
+---
+2013/10/27 12:01:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/detecmobilebrowser.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/detecmobileb...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/detecmobilebrowser.js
+---
+2013/10/27 12:01:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/dectectmobilebrowser.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/dectectmobil...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/dectectmobilebrowser.js
+HTTP_REFERER=http://localhost/comicbookdb/js/detecmobilebrowser.js
+---
+2013/10/27 12:07:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/dectectmobilebrowser.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/dectectmobil...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/dectectmobilebrowser.js
+HTTP_REFERER=http://localhost/comicbookdb/index.php
+---
+2013/10/27 12:10:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/dectectmobilebrowser.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/dectectmobil...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/dectectmobilebrowser.js
+HTTP_REFERER=http://localhost/comicbookdb/index.php
+---
+2013/10/27 12:10:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/css/themes/default/jquery.mobile-1.3.2.min.css".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/themes/d...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/css/themes/default/jquery.mobile-1.3.2.min.css
+HTTP_REFERER=http://localhost/comicbookdb/js/
+---
+2013/10/27 12:10:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/js/jquery.mobile-1.3.2.min.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/js/jquery.mo...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/js/jquery.mobile-1.3.2.min.js
+HTTP_REFERER=http://localhost/comicbookdb/js/
+---
+2013/10/27 12:10:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/demos/_assets/css/jqm-demos.css".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/demos/_asset...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/demos/_assets/css/jqm-demos.css
+HTTP_REFERER=http://localhost/comicbookdb/js/
+---
+2013/10/27 12:10:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/js/jquery.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/js/jquery.js')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/js/jquery.js
+HTTP_REFERER=http://localhost/comicbookdb/js/
+---
+2013/10/27 12:10:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/demos/_assets/js/index.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/demos/_asset...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/demos/_assets/js/index.js
+HTTP_REFERER=http://localhost/comicbookdb/js/
+---
+2013/10/27 12:10:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/demos".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/demos')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/demos/
+HTTP_REFERER=http://localhost/comicbookdb/js/
+---
+2013/10/27 12:10:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/dectectmobilebrowser.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/dectectmobil...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/dectectmobilebrowser.js
+HTTP_REFERER=http://localhost/comicbookdb/js/demos/
+---
+2013/10/27 12:10:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/detecmobilebrowser.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/detecmobileb...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/detecmobilebrowser.js
+---
+2013/10/27 12:10:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/dectectmobilebrowser.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/dectectmobil...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/dectectmobilebrowser.js
+HTTP_REFERER=http://localhost/comicbookdb/js/detecmobilebrowser.js
+---
+2013/10/27 18:13:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/dectectmobilebrowser.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/dectectmobil...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/dectectmobilebrowser.js
+HTTP_REFERER=http://localhost/comicbookdb/index.php
+---
+2013/10/27 18:13:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/detecmobilebrowser.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/detecmobileb...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/detecmobilebrowser.js
+---
+2013/10/27 18:13:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/dectectmobilebrowser.js".' in /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('js/dectectmobil...')
+#1 /opt/lampp/htdocs/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u13pro/Projects/Yii-Projects/comicbookdb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/comicbookdb/js/dectectmobilebrowser.js
+HTTP_REFERER=http://localhost/comicbookdb/js/detecmobilebrowser.js
+---

@@ -14,7 +14,12 @@
 
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
-
+        
+        <?php
+            Yii::app()->clientScript->registerCoreScript('jquery');
+            Yii::app()->clientScript->registerScriptFile(Yii::app()->request->baseUrl . '/js/detectmobilebrowser.js');
+        ?>
+                                                                                       
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 
@@ -28,6 +33,18 @@
 
 	<div id="mainmenu">
 		<?php 
+                
+                    Yii::app()->clientScript->registerScript('detectmobilebrowser',
+                            "if (isMobileBrowser(navigator.userAgent || navigator.vendor || window.opera))"
+                            . "{"
+                            . "   alert('Mobile'); "
+                            . "}"
+                          . "else "
+                            . "{"
+                            . "   alert('Non.Mobile');"
+                            . "}"
+                            ,CClientScript::POS_READY);
+                
                     if (Yii::app()->user->isGuest)
                     {
                         $this->widget('zii.widgets.CMenu',array(
