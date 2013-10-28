@@ -37,11 +37,17 @@
                     Yii::app()->clientScript->registerScript('detectmobilebrowser',
                             "if (isMobileBrowser(navigator.userAgent || navigator.vendor || window.opera))"
                             . "{"
-                            . "   alert('Mobile'); "
-                            . "}"
-                          . "else "
-                            . "{"
-                            . "   alert('Non.Mobile');"
+                            . "   if (window.location.search.search('mobile') == -1)"
+                            . "   {"
+                            . "      if (window.location.search.length)"
+                            . "      {"
+                            . "         window.location.replace(document.URL + '&mobile=on');"
+                            . "      }"
+                            . "      else"
+                            . "      {"
+                            . "         window.location.replace(document.URL + '?mobile=on');"
+                            . "      }"
+                            . "   }"
                             . "}"
                             ,CClientScript::POS_READY);
                 
